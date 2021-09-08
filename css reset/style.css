@@ -1,0 +1,50 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	width: 650px;
+	margin: 10% auto;
+}
+ body{
+ 	background: url(../img/6.jpg);
+ 	background-size: cover;
+ 	font-family: 'Azeret Mono', monospace;
+ }
+ .login-section{
+ 	background color: lightyellow;
+ 	padding: 25px;
+}
+.login-section img{
+	width: 200px ;
+	margin: 0px auto;
+	display: block;
+}
+.login-section h2{
+	text-align: center;
+	color: black;
+	text-transform: uppercase;
+	margin: 10px 0px;
+}
+.form-control{
+	width: 96%;
+	height: 35px;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+.confirm-btn{
+	background: greenyellow;
+	color: black;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	margin: 0 auto;
+	display: block;
+	cursor: pointer;
+	transition: 0.4s ease-in-out;
+	-moz-transition: 0.4s ease-in-out;
+	-o-transition: 0.4s ease-in-out;
+	-webkit-transition: 0.4 ease-in-out;
+}
+.confirm-btn:hover{
+	box-shadow: 2px 4px 8px #ffff;
+}
